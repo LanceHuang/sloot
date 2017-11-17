@@ -11,4 +11,8 @@
     <view class="usermotto">
         <text class="user-motto">{{motto}}</text>
     </view>
+
+    <view>
+        <button type='primary' bindtap=''> Logout</button>
+    </view>
 </view>
