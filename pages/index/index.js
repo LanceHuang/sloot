@@ -50,5 +50,11 @@ Page({
             userInfo: e.detail.userInfo,
             hasUserInfo: !!e.detail.userInfo
         })
+    },
+    logout: function () {
+        this.setData({
+            userInfo: null,
+            hasUserInfo: false
+        })
     }
 })

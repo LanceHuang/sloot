@@ -5,16 +5,16 @@ const app = getApp();
 
 Page({
     data: {
-        msg: ''
     },
     onLoad: function () {
-    },
-    scanCode: function () {
-        const that = this;
-        wx.scanCode({
+        wx.getUserInfo({
             success: function (res) {
-                that.setData({ msg: res.result });
+                console.log(res);
+                console.log(res.userInfo);
             }
         })
+    },
+    bindsubmit: function (options) {
+        console.log(options.detail.value);
     }
 })

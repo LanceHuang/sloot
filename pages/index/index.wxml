@@ -13,6 +13,6 @@
     </view>
 
     <view>
-        <button type='primary' bindtap=''> Logout</button>
+        <button type='primary' bindtap='logout'> Logout</button>
     </view>
 </view>

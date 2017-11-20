@@ -1,7 +1,8 @@
 {
     "pages": [
-        "pages/qrcode/qrcode",
+        "pages/demo/demo",
         "pages/index/index",
+        "pages/qrcode/qrcode",
         "pages/logs/logs"
     ],
     "window": {
@@ -13,6 +14,10 @@
     "tabBar": {
         "selectedColor": "#00ff00",
         "list": [
+            {
+                "pagePath": "pages/demo/demo",
+                "text": "演示板"
+            },
             {
                 "pagePath": "pages/qrcode/qrcode",
                 "text": "二维码"
