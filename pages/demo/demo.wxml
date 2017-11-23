@@ -2,4 +2,8 @@
 
 <view class="container">
     <template is="head" data="{{title:'演示板'}}" />
+
+    <image class='im' src='{{avatarUrl}}'></image>
+    <text>{{nickname}}</text>
+
 </view>
