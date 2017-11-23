@@ -2,8 +2,10 @@
     "pages": [
         "pages/demo/demo",
         "pages/index/index",
+        "pages/logs/logs",
         "pages/qrcode/qrcode",
-        "pages/logs/logs"
+        "pages/qrcode-scan/qrcode-scan",
+        "pages/qrcode-gen/qrcode-gen"
     ],
     "window": {
         "backgroundTextStyle": "light",

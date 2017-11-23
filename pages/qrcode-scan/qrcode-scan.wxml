@@ -1,0 +1,13 @@
+<view class="container">
+
+    <view>
+        <text>二维码内容：</text>
+    </view>
+    <view class='board'>
+        <text>{{msg}}</text>
+    </view>
+
+    <view class='panel-button'>
+        <button type='primary' bindtap='scanCode'>扫描二维码</button>
+    </view>
+</view>

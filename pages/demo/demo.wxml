@@ -1,12 +1,5 @@
 <import src="../common/head.wxml" />
 
 <view class="container">
-    <form bindsubmit='bindsubmit'>
-        <input name="username" placeholder='username' />
-        <input name="password" password placeholder='password' />
-
-        <button form-type='submit' type='primary' size='mini'>Submit</button>
-        <button form-type='reset' size='mini'>Reset</button>
-    </form>
-
+    <template is="head" data="{{title:'演示板'}}" />
 </view>

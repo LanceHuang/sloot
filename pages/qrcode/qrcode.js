@@ -1,20 +1,14 @@
-//logs.js
-const util = require('../../utils/util.js')
-
-const app = getApp();
-
 Page({
-    data: {
-        msg: ''
-    },
-    onLoad: function () {
-    },
+    data: {},
+    onLoad: function () { },
     scanCode: function () {
-        const that = this;
-        wx.scanCode({
-            success: function (res) {
-                that.setData({ msg: res.result });
-            }
+        wx.navigateTo({
+            url: '../qrcode-scan/qrcode-scan'
+        })
+    },
+    genCode: function () {
+        wx.navigateTo({
+            url: '../qrcode-gen/qrcode-gen'
         })
     }
 })

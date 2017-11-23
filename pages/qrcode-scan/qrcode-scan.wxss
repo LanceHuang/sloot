@@ -1,0 +1,14 @@
+.board {
+    text-align: center;
+    background-color: #eee;
+    color: #a7521c;
+}
+
+.panel-button {
+    margin-top: 200rpx;
+}
+
+/* wrap line */
+text {
+    word-break: break-all;
+}

@@ -1,0 +1,18 @@
+<view class="container">
+    <view >
+        <canvas canvas-id='qrcode' hidden='{{canvasHidden}}' style="width: 686rpx;height: 686rpx;background:#f1f1f1;"></canvas>
+    </view>
+
+    <view class='panel-button'>
+        <form bindsubmit='genCode'>
+            
+            <view>
+                <input type='text' name="txt" placeholder='{{placeholder}}'></input>
+            </view>
+
+            <view>
+                <button type='primary' form-type='submit'>生成二维码</button>
+            </view>
+        </form>
+    </view>
+</view>

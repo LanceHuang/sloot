@@ -1,3 +1,5 @@
 <template name="head">
-    <text>head</text>
+    <view>
+        <text>== {{title}} ==</text>
+    </view>
 </template>

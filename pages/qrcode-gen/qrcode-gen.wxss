@@ -1,0 +1,7 @@
+.panel-canvas {
+    text-align: center;
+}
+
+.panel-button {
+    margin-top: 200rpx;
+}
